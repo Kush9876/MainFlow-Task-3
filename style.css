@@ -1,0 +1,204 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+
+nav ul li a {
+    color:aqua;
+    text-decoration: none;
+}
+
+.content {
+    padding: 20px;
+}
+
+.content h2 {
+    color: #333;
+}
+
+.featured-users, .recent-messages {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.user-card, .message-card {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.user-card h3, .message-card h3 {
+    margin: 0 0 10px 0;
+}
+
+.message-card p {
+    margin: 0;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+/* Form styles */
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"],
+button {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Optional: Center the form on the page */
+section {
+    width: 300px;
+    margin: 0 auto;
+}
+
+/* Styles for the role select element */
+select#role {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Optional: Change appearance of select dropdown arrow */
+select#role::-ms-expand {
+    display: none; /* Hide default arrow in IE10+ */
+}
+
+select#role::-webkit-outer-spin-button,
+select#role::-webkit-inner-spin-button {
+    -webkit-appearance: none; /* Hide default arrow in Chrome and Safari */
+    margin: 0; /* Removing default margin */
+}
+
+/* Style for the message box */
+.message-box {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 9999;
+}
+
+.message-box h2 {
+    margin-top: 0;
+}
+
+.message-box button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+/* Style for message boxes */
+.msg {
+    background-color: #f0f0f0;
+    border: 1px solid hsl(0, 2%, 69%);
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 300px; /* Adjust width as needed */
+}
+
+.user-info {
+    color: white;
+    text-align: right;
+    font-weight: bold; /* Make the text bold */
+    font-size: 1.6em; /* Increase the font size */
+}
+
+.content-section {
+    margin-bottom: 40px;
+    width: auto !important;
+}
+
+.content-section h2 {
+    color: #333;
+}
+
+#welcome-section {
+    border-left: 5px solid #4CAF50; /* Green left border */
+    background: linear-gradient(135deg, #e3ffe7 0%, #d9e7ff 100%); /* Gradient background */
+}
+
+#how-to-use-section {
+    border-left: 5px solid #2196F3; /* Blue left border */
+    background: linear-gradient(135deg, #fceabb 0%, #f8b500 100%); /* Gradient background */
+}
